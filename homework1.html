@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"A PAGE OF PRODUCTS!"</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body >
+
+        <div class="container">
+            <br><h3 id="info">Product Information <img src="icon.jpeg" alt="information icon" width="=30" height="30"> </h3>
+            <br />
+            <br />
+            <!-- Task: add class="text-center" to the container div below-->
+            <div class-="text-center">  
+                <label>Search:</label>
+                <input type="text" id="input" oninput="inputReal()">
+                <p font size="2">Searching for :<div id="searchingFor"></div></p>
+                
+            <!-- [Task: Add a label and a text input.]
+            <p>Searching for <strong id="searchterm"> [Search term] </strong></p> -->
+            </div>
+            <hr /><br>
+            
+            <div class="row">
+                <!--Tushy Product-->
+                <div class="col-md-7">
+                    <h2> <a href="https://hellotushy.com/collections/bidet-attachments">Tushy Bidet</a></h2>
+                    <div>$99-$499</div>
+                    <p>Meet TUSHY! The modern and sustainable bidet company that offers an alternative to toilet paper. Browse our bidets, bathroom and toilet paper!</p>
+                    <div>Bathroom Needs</div>
+                    <div class="my-3">
+                        <button id="btn1" onclick="btnToggle('btn1')">Dismiss</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="tushy.jpeg" width="250" height="250">
+                </div>
+            </div> 
+            <hr />
+            <br>
+
+            <!--PS5 Product-->
+            <div class="row">
+                <div class="col-md-7">
+                    <h2><a href="https://direct.playstation.com/en-us/consoles/console/playstation5-console.1000031644">PlayStation 5</a></h2>
+                    <div>$499</div>
+                    <p>The PS5™ console unleashes new gaming possibilities that you never anticipated.<br>
+                        Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games</p>
+                    <div>Gaming</div>
+                    <div class="my-3">
+                        <button id="btn2" onclick="btnToggle('btn2')">Dismiss</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="PS5.webp" width="250" height="250">
+                </div>
+            </div> 
+            <hr />
+            <br>
+
+            <!--Lovesac Product-->
+            <div class="row">
+                <div class="col-md-7">
+                    <h2><a href="https://www.lovesac.com/sacs/build">Lovesac</a></h2>
+                    <div>$1485</div>
+                    <p>With 6 sizes and hundreds of Covers to choose from, there’s a Sac for every space and style</p>
+                    <div>Furniture</div>
+                    <div class="my-3">
+                        <button id="btn3" onclick="btnToggle('btn3')">Dismiss</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="lovesac.jpeg" width="250" height="200">
+                </div>
+            </div> 
+            <hr />
+            <br>
+
+           <!--Bhagvad Gita Product-->
+            <div class="row">
+                <div class="col-md-7">
+                    <h2><a href="https://www.amazon.com/Bhagavad-Gita-2nd-Eknath-Easwaran/dp/1586380192/ref=d_pd_sbs_vft_none_sccl_2_1/144-6105373-6885954?pd_rd_w=8vtIZ&content-id=amzn1.sym.bf42acb1-03cc-4a7b-a343-860b9e7fe4bf&pf_rd_p=bf42acb1-03cc-4a7b-a343-860b9e7fe4bf&pf_rd_r=HYVJ72MQNB61N07Y5SAY&pd_rd_wg=fHjpa&pd_rd_r=626f1fd0-bffa-41b7-a649-ed0462dd610e&pd_rd_i=1586380192&psc=1">Bhagvad Gita</a></h2>
+                    <div>$8.89</div>
+                    <p>The Bhagavad Gita is the best known of all the Indian scriptures, and Eknath Easwaran’s best-selling translation is reliable, readable, and profound.<br>Easwaran's 55-page introduction places the Bhagavad Gita in its historical setting, and brings out the universality and timelessness of its teachings. Chapter introductions clarify key concepts, and notes and a glossary explain Sanskrit terms.</p>
+                    <div>Literature</div>
+                    <div class="my-3">
+                        <button id="btn4" onclick="btnToggle('btn4')">Dismiss</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="bhagvad gita.jpeg" width="150" height="200">
+                </div>
+            </div> 
+            <hr />
+          
+            <br>
+        </div>
+
+
+
+
+</div>
+<script src="homework1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
